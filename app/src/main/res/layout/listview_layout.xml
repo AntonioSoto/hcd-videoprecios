@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/list_Image"
+        android:contentDescription="@string/app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/list_Name"
+        android:text="Sample"
+        android:textColor="@color/color_DarkGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/list_Image"
+        android:layout_toEndOf="@id/list_Image" />
+
+    <TextView
+        android:id="@+id/list_Price"
+        android:text="Sample"
+        android:textColor="@color/color_LightGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/list_Image"
+        android:layout_toEndOf="@id/list_Image"
+        android:paddingTop="60dp"/>
+
+    <TextView
+        android:id="@+id/list_Seller"
+        android:text="Sample"
+        android:textColor="@color/color_Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/list_Image"
+        android:layout_toEndOf="@id/list_Image"
+        android:paddingTop="100dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Videoprecios</string>
+    <string name="app_logo">Videoprecios</string>
+    <string name="search_hint">Nombre de un videojuego</string>
+    <string name="button_search">Buscar</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="array_Order">
+        <item>(Ninguno)</item>
+        <item>Precio (de menor a mayor)</item>
+        <item>Precio (de mayor a menor)</item>
+    </string-array>
+    <string-array name="array_Platforms">
+        <item>(Ninguna)</item>
+        <item>DS</item>
+        <item>Wii</item>
+        <item>3DS</item>
+        <item>Wii U</item>
+        <item>Switch</item>
+        <item>Xbox 360</item>
+        <item>Xbox One</item>
+        <item>Playstation 3</item>
+        <item>Playstation 4</item>
+        <item>PC</item>
+    </string-array>
+    <string-array name="array_Sellers">
+        <item>(Ninguno)</item>
+        <item>Gameplanet</item>
+        <item>Gamershop</item>
+        <item>Mercadolibre</item>
+        <item>Amazon</item>
+        <item>eBay</item>
+        <item>Steam</item>
+        <item>Play-asia</item>
+    </string-array>
+</resources>
